@@ -22,6 +22,20 @@ function init() {
   camera = new THREE.PerspectiveCamera(75, getAspectRatio(), 0.1, 1000);
   camera.position.z = 500;
 
+
+  // const e=document.createElement("canvas")
+
+  //  a.WebGLRenderer({canvas:e,context:t,alpha:!1,antialias:!1,stencil:!1,depth:!1,powerPreference:"high-performance"});
+
+  //  i.setPixelRatio(.01),
+  //  i.setSize(this.winSize.width,this.winSize.height),
+  //  i.outputEncoding=a.GammaEncoding,
+  //  i.autoClear=!1,
+  //  i.toneMapping=y.Linear,
+  //  i.shadowMap.type=a.PCFSoftShadowMap;
+
+
+
   // render
 //  var canvas = document.getElementById("canvasID");
 //  renderer = new THREE.WebGLRenderer({antialias: true, canvas: canvas});
@@ -124,14 +138,3 @@ function render() {
 }
 
 init().then(render);
-
-// const e=document.createElement("canvas")
-
-//  a.WebGLRenderer({canvas:e,context:t,alpha:!1,antialias:!1,stencil:!1,depth:!1,powerPreference:"high-performance"});
-
-//  i.setPixelRatio(.01),
-//  i.setSize(this.winSize.width,this.winSize.height),
-//  i.outputEncoding=a.GammaEncoding,
-//  i.autoClear=!1,
-//  i.toneMapping=y.Linear,
-//  i.shadowMap.type=a.PCFSoftShadowMap;
