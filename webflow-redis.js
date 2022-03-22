@@ -23,7 +23,7 @@ function init() {
   camera.position.z = 500;
 
   // render
-  var canvas = document.getElementById("canvasID");
+//  var canvas = document.getElementById("canvasID");
 //  renderer = new THREE.WebGLRenderer({antialias: true, canvas: canvas});
   renderer = new THREE.WebGLRenderer({antialias: true});
   renderer.setClearColor(0x000000);
