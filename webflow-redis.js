@@ -125,9 +125,6 @@ function render() {
 
 init().then(render);
 
-
-
-
 // const e=document.createElement("canvas")
 
 //  a.WebGLRenderer({canvas:e,context:t,alpha:!1,antialias:!1,stencil:!1,depth:!1,powerPreference:"high-performance"});
